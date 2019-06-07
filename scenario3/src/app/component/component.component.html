@@ -1,0 +1,3 @@
+<input type="text" #dataInput>
+<input type="button" value="Send data" (click)="assign(dataInput.value)">
+<app-component-child [parentData]="name"></app-component-child>
